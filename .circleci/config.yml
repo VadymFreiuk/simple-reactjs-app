@@ -32,6 +32,7 @@ jobs:
           command: |
             npm instal
             npm start 
+            npm audit fix
 
 workflows:
   # Below is the definition of your workflow.
