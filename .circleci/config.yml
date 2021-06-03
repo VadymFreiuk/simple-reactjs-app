@@ -29,7 +29,9 @@ jobs:
       # - node/install-packages:
       #     pkg-manager: yarn 
       - run:
-          command: npm install ; npm start
+          command: |
+            npm instal
+            npm start 
 
 workflows:
   # Below is the definition of your workflow.
